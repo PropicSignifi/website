@@ -1,0 +1,143 @@
+---
+title: "Home"
+description: "Have a glance at the fantastic libraries released and maintained by Click-to-Cloud."
+---
+
+{namespace pageIndex}
+
+/**
+ */
+{template .render}
+	{@param site: ?}
+
+	{call main.render data="all"}
+		{param content kind="html"}
+			{call .header data="all" /}
+			{call .why /}
+			{call .features /}
+			{call .how /}
+			{call .highlights /}
+			{call Footer.render data="all" /}
+		{/param}
+	{/call}
+{/template}
+
+/**
+ */
+{template .header}
+	{@param site: ?}
+
+	<header class="header">
+		<div class="container">
+			<h1 class="header-title">{$site.title}</h1>
+			<h2 class="header-subtitle">{$site.index.description}</h2>
+		</div>
+	</header>
+{/template}
+
+/**
+ */
+{template .why}
+	<article class="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-md-offset-2">
+					<h3 class="about-title">Apex Libraries</h3>
+					<p class="about-description"><a href="http://www.clicktocloud.com/">Click-to-Cloud</a> is a vendor and partner of Salesforce, and devotes itself in Salesforce development. During coding in Apex, we have met pain points and we are trying to resolve them. And these libraries are the tools that we have developed to ease the pain and make Salesforce Apex more friendly.</p>
+				</div>
+			</div>
+		</div>
+	</article>
+{/template}
+
+/**
+ */
+{template .features}
+	<div class="features">
+		<div class="container">
+			<div class="row">
+				<section class="feature col-md-4 col-md-offset-2">
+					<h3 class="feature-title">Pluggable Libraries</h3>
+					<p class="feature-description">Most of our Apex libraries are small and self-dependent, which makes it easy to include and use in your development.</p>
+				</section>
+				<section class="feature col-md-4">
+					<h3 class="feature-title">Problem Oriented</h3>
+					<p class="feature-description">Each of our libraries focuses on one specific problem and tries to solve it well.</p>
+				</section>
+				<section class="feature col-md-4">
+					<h3 class="feature-title">Active maintanence</h3>
+					<p class="feature-description">We are positive in using these libraries in our company and will keep maintaining them.</p>
+				</section>
+			</div>
+		</div>
+	</div>
+{/template}
+
+/**
+ */
+{template .how}
+	<article class="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-md-offset-2">
+					<h3 class="about-title">Easy to pick one up</h3>
+					<p class="about-description">Our libraries are delibrately designed and easy-to-use. No extra configurations. Very few apex files. Detailed guides to help you get started.</p>
+				</div>
+			</div>
+		</div>
+	</article>
+{/template}
+
+/**
+ */
+{template .highlights}
+	<div class="highlights">
+		<div class="container">
+			<section class="highlight row">
+				<div class="col-md-6 col-md-offset-2">
+					<h4 class="highlight-title"><a href="https://github.com/Click-to-Cloud/Query.apex">Query.apex</a></h4>
+					<p class="highlight-description">Query.apex provides a flexible and dynamic way of building a SOQL query on the Salesforce platform.</p>
+				</div>
+				<div class="col-md-5 col-md-offset-1">
+					<img class="highlight-image" src="/images/highlight_1.png" alt="Fluent API" height="200">
+				</div>
+			</section>
+			<section class="highlight row">
+				<div class="col-md-6 col-md-push-9">
+					<h4 class="highlight-title"><a href="https://github.com/Click-to-Cloud/R.apex">R.apex</a></h4>
+					<p class="highlight-description">R.apex is a functional utility library for Apex.</p>
+				</div>
+				<div class="col-md-5 col-md-offset-2 col-md-pull-6">
+					<img class="highlight-image" src="/images/highlight_2.png" alt="Collection Support" height="200">
+				</div>
+			</section>
+			<section class="highlight row">
+				<div class="col-md-6 col-md-offset-2">
+					<h4 class="highlight-title"><a href="https://github.com/Click-to-Cloud/Script.apex">Script.apex</a></h4>
+					<p class="highlight-description">Script.apex evaluates Javascript expressions in Apex.</p>
+				</div>
+				<div class="col-md-5 col-md-offset-1">
+					<img class="highlight-image" src="/images/highlight_3.png" alt="Function Composition" height="200">
+				</div>
+			</section>
+			<section class="highlight row">
+				<div class="col-md-6 col-md-push-9">
+					<h4 class="highlight-title"><a href="https://github.com/Click-to-Cloud/Moment.apex">Moment.apex</a></h4>
+					<p class="highlight-description">Moment.apex parses, manipulates and displays dates and times in Apex.</p>
+				</div>
+				<div class="col-md-5 col-md-offset-2 col-md-pull-6">
+					<img class="highlight-image" src="/images/highlight_4.png" alt="Collection Support" height="200">
+				</div>
+			</section>
+			<section class="highlight row">
+				<div class="col-md-6 col-md-offset-2">
+					<h4 class="highlight-title"><a href="https://github.com/Click-to-Cloud/Async.apex">Async.apex</a></h4>
+					<p class="highlight-description">Async.apex is a promise-like functional library to handle asynchronous code.</p>
+				</div>
+				<div class="col-md-5 col-md-offset-1">
+					<img class="highlight-image" src="/images/highlight_5.png" alt="Function Composition" height="200">
+				</div>
+			</section>
+		</div>
+	</div>
+{/template}
