@@ -14,3 +14,5 @@ weight: 1
 | Script.apex | [Docs](https://click-to-cloud.github.io/script-apex/) |
 | Moment.apex | [Docs](https://click-to-cloud.github.io/moment-apex/) |
 | Async.apex | [Docs](https://click-to-cloud.github.io/async-apex/) |
+| Job.apex | [Docs](https://click-to-cloud.github.io/job-apex/) |
+| T.apex | [Docs](https://click-to-cloud.github.io/t-apex/) |
