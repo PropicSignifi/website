@@ -10,9 +10,10 @@ weight: 1
 | Project | Documentation |
 | ------- | ------------- |
 | Query.apex | Under Development |
-| R.apex | [Docs](https://click-to-cloud.github.io/r-apex/) |
-| Script.apex | [Docs](https://click-to-cloud.github.io/script-apex/) |
-| Moment.apex | [Docs](https://click-to-cloud.github.io/moment-apex/) |
-| Async.apex | [Docs](https://click-to-cloud.github.io/async-apex/) |
-| Job.apex | [Docs](https://click-to-cloud.github.io/job-apex/) |
-| T.apex | [Docs](https://click-to-cloud.github.io/t-apex/) |
+| R.apex | <a href="/" onclick="location.assign('/r-apex')">Docs</a> |
+| Script.apex | <a href="/" onclick="location.assign('/script-apex')">Docs</a> |
+| Moment.apex | <a href="/" onclick="location.assign('/moment-apex')">Docs</a> |
+| Async.apex | <a href="/" onclick="location.assign('/async-apex')">Docs</a> |
+| Job.apex | <a href="/" onclick="location.assign('/job-apex')">Docs</a> |
+| T.apex | <a href="/" onclick="location.assign('/t-apex')">Docs</a> |
+| Mapper.apex | <a href="/" onclick="location.assign('/mapper-apex')">Docs</a> |
