@@ -17,3 +17,5 @@ weight: 1
 | Job.apex | <a href="/" onclick="location.assign('/job-apex')">Docs</a> |
 | T.apex | <a href="/" onclick="location.assign('/t-apex')">Docs</a> |
 | Mapper.apex | <a href="/" onclick="location.assign('/mapper-apex')">Docs</a> |
+| Flow.apex | <a href="/" onclick="location.assign('/flow-apex')">Docs</a> |
+| Config.apex | <a href="/" onclick="location.assign('/config-apex')">Docs</a> |
