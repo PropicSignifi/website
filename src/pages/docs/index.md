@@ -19,3 +19,4 @@ weight: 1
 | Mapper.apex | <a href="/" onclick="location.assign('/mapper-apex')">Docs</a> |
 | Flow.apex | <a href="/" onclick="location.assign('/flow-apex')">Docs</a> |
 | Config.apex | <a href="/" onclick="location.assign('/config-apex')">Docs</a> |
+| Template.apex | <a href="/" onclick="location.assign('/template-apex')">Docs</a> |
