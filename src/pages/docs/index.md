@@ -20,3 +20,4 @@ weight: 1
 | Flow.apex | <a href="/" onclick="location.assign('/flow-apex')">Docs</a> |
 | Config.apex | <a href="/" onclick="location.assign('/config-apex')">Docs</a> |
 | Template.apex | <a href="/" onclick="location.assign('/template-apex')">Docs</a> |
+| Stream.apex | <a href="/" onclick="location.assign('/stream-apex')">Docs</a> |
