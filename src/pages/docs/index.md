@@ -22,3 +22,4 @@ weight: 1
 | Template.apex | <a href="/" onclick="location.assign('/template-apex')">Docs</a> |
 | Stream.apex | <a href="/" onclick="location.assign('/stream-apex')">Docs</a> |
 | Action.apex | Under Development |
+| Trap.apex | <a href="/" onclick="location.assign('/trap-apex')">Docs</a> |
