@@ -23,3 +23,4 @@ weight: 1
 | Stream.apex | <a href="/" onclick="location.assign('/stream-apex')">Docs</a> |
 | Action.apex | Under Development |
 | Trap.apex | <a href="/" onclick="location.assign('/trap-apex')">Docs</a> |
+| Log.apex | <a href="/" onclick="location.assign('/log-apex')">Docs</a> |
