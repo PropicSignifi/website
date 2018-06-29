@@ -26,3 +26,4 @@ weight: 1
 | Log.apex | <a href="/" onclick="location.assign('/log-apex')">Docs</a> |
 | Pack.apex | Under Development |
 | Atom.apex | <a href="/" onclick="location.assign('/atom-apex')">Docs</a> |
+| Sweet.apex | <a href="/" onclick="location.assign('/sweet-apex')">Docs</a> |
