@@ -28,3 +28,4 @@ weight: 1
 | Atom.apex | <a href="/" onclick="location.assign('/atom-apex')">Docs</a> |
 | Sweet.apex | <a href="/" onclick="location.assign('/sweet-apex')">Docs</a> |
 | MObject.apex | <a href="/" onclick="location.assign('/mobject-apex')">Docs</a> |
+| G.apex | <a href="/" onclick="location.assign('/g-apex')">Docs</a> |
